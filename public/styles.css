@@ -1,0 +1,38 @@
+html, body, #map {
+	height: 100%;
+	margin: 0;
+}
+
+#map {
+	height: 100vh;
+}
+
+.controls {
+	position: absolute;
+	z-index: 1000;
+	top: 12px;
+	left: 12px;
+	background: rgba(255, 255, 255, 0.95);
+	backdrop-filter: blur(3px);
+	border-radius: 8px;
+	box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+	padding: 8px 10px;
+}
+
+.control-row {
+	display: flex;
+	gap: 8px;
+}
+
+.control-row.status {
+	margin-top: 4px;
+}
+
+button {
+	padding: 6px 10px;
+}
+
+.aircraft-icon {
+	font-size: 20px;
+}
+

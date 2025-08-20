@@ -1,0 +1,14 @@
+{
+  "name": "flight-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple flight tracker website using OpenSky and Leaflet.",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.6.7"
+  }
+}
